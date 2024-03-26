@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Being.cpp" />
+    <ClCompile Include="Being.hpp" />
+    <ClCompile Include="thought.cpp" />
     <ClCompile Include="vV_Vastness.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="thought.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
